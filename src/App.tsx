@@ -1,5 +1,5 @@
 // @ts-ignore-next-line
-import { Box, Button } from "@mui/material";
+import Button from "./MuiButton";
 import TailwindButton from "./TailwindButton";
 import { EndIcon, StartIcon } from "./utils/icons";
 
@@ -28,7 +28,7 @@ function App() {
       <button
         disabled={disabled}
         onClick={handleClick}
-        className="btn btn-primary"
+        className={`btn btn-error btn-large mt-1`}
         data-pendo="test"
       >
         <StartIcon />
