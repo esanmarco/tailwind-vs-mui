@@ -28,7 +28,7 @@ function App() {
       <button
         disabled={disabled}
         onClick={handleClick}
-        className={`btn btn-error btn-large mt-1`}
+        className="btn btn-primary"
         data-pendo="test"
       >
         <StartIcon />
