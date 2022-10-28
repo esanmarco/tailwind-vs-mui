@@ -20,11 +20,6 @@ function App() {
         Mui Button Component
       </Button>
 
-      <Box gap={10} display="flex" flexDirection="row">
-        <p>Test</p>
-        <p>Test 2</p>
-      </Box>
-
       <TailwindButton disabled={disabled} onClick={handleClick} color="primary">
         Tailwind Button Component
         <EndIcon />
